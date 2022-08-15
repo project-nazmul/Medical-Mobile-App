@@ -322,16 +322,21 @@ class SingleDoctorPage extends StatelessWidget {
                 onTap: () {
                   Navigator.of(context).pop();
                 },
-                child: Container(
-                  margin: const EdgeInsets.only(
-                      left: 23, right: 22, top: 20, bottom: 20),
-                  padding: const EdgeInsets.only(left: 10, top: 5, bottom: 5),
-                  decoration: BoxDecoration(
-                      color: Colors.white,
-                      borderRadius: BorderRadius.circular(10)),
-                  child: Icon(
-                    Icons.arrow_back_ios,
-                    color: Colors.black.withOpacity(0.5),
+                child: InkWell(
+                  onTap: (){
+                    Navigator.of(context).pop();
+                  },
+                  child: Container(
+                    margin: const EdgeInsets.only(
+                        left: 23, right: 22, top: 20, bottom: 20),
+                    padding: const EdgeInsets.only(left: 10, top: 5, bottom: 5),
+                    decoration: BoxDecoration(
+                        color: Colors.white,
+                        borderRadius: BorderRadius.circular(10)),
+                    child: Icon(
+                      Icons.arrow_back_ios,
+                      color: Colors.black.withOpacity(0.5),
+                    ),
                   ),
                 ),
               ),

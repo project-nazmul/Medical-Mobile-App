@@ -19,7 +19,7 @@ class FindDoctor extends StatelessWidget {
                   clr: Colors.black,
                   fw: FontWeight.bold,
                   fs: 18),
-              Icon(Icons.menu)
+              Icon(Icons.arrow_drop_down_circle_outlined)
             ],
           ),
         ),
