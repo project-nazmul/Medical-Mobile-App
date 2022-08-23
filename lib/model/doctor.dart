@@ -9,5 +9,13 @@ class Doctor{
   String bio;
   List<Reviewer> reviews;
 
-  Doctor({required this.image,required this.name,required this.deptName,required this.rating,required this.patients,required this.bio,required this.reviews});
+  Doctor({
+    required this.image,
+    required this.name,
+    required this.deptName,
+    required this.rating,
+    required this.patients,
+    required this.bio,
+    required this.reviews
+  });
 }

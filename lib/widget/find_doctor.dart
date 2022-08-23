@@ -9,6 +9,7 @@ class FindDoctor extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: [
+        //Find doctor & left side icon
         Padding(
           padding: const EdgeInsets.only(left: 15, right: 15, top: 15),
           child: Row(
@@ -23,10 +24,12 @@ class FindDoctor extends StatelessWidget {
             ],
           ),
         ),
+
+        //Departments list
         Expanded(
           child: ListView.builder(
             scrollDirection: Axis.horizontal,
-            itemCount: 5,
+            itemCount: Data.departments.length,
             itemBuilder: (context, index) {
               return Container(
                 margin: const EdgeInsets.only(

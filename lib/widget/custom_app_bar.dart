@@ -30,7 +30,7 @@ class CustomAppBar extends StatelessWidget {
                 CustomText(
                     text: 'Current Location',
                     clr: Colors.black.withOpacity(0.5),
-                    fw: FontWeight.normal,
+                    fw: FontWeight.bold,
                     fs: 13),
                 const SizedBox(height: 3,),
                 Row(

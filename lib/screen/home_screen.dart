@@ -18,8 +18,8 @@ class HomeScreen extends StatelessWidget {
         backgroundColor: const Color(0xffF0F1F1),
         body: Column(
           children: [
-            const Expanded(flex: 2, child: CustomAppBar()),
-            const Expanded(flex: 2, child: CustomSearchBar()),
+            const Expanded(flex: 2, child: CustomAppBar()),//AppBar
+            const Expanded(flex: 2, child: CustomSearchBar()),//Search Bar
             Padding(
               padding: const EdgeInsets.only(bottom: 10, right: 15, left: 15),
               child: Row(
@@ -38,10 +38,10 @@ class HomeScreen extends StatelessWidget {
                 ],
               ),
             ),
-            const Expanded(flex: 5, child: UpcomingSchedule()),
+            const Expanded(flex: 5, child: UpcomingSchedule()),//Upcoming Schedule pageView
             const Expanded(flex: 2, child: FindDoctor()),
-            const Expanded(flex: 2, child: Doctors()),
-            const Expanded(flex: 2, child: BottomBar()),
+            const Expanded(flex: 2, child: Doctors()),//Doctors pageView
+            const Expanded(flex: 2, child: BottomBar()),//Bottom Navigation Bar
           ],
         ),
       ),
